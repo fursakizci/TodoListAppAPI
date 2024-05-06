@@ -1,0 +1,11 @@
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.Entities/bin/Debug/net8.0/TodoListApp.Entities.deps.json
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.Entities/bin/Debug/net8.0/TodoListApp.Entities.dll
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.Entities/bin/Debug/net8.0/TodoListApp.Entities.pdb
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.Entities/obj/Debug/net8.0/TodoListApp.Entities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.Entities/obj/Debug/net8.0/TodoListApp.Entities.AssemblyInfoInputs.cache
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.Entities/obj/Debug/net8.0/TodoListApp.Entities.AssemblyInfo.cs
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.Entities/obj/Debug/net8.0/TodoListApp.Entities.csproj.CoreCompileInputs.cache
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.Entities/obj/Debug/net8.0/TodoListApp.Entities.dll
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.Entities/obj/Debug/net8.0/refint/TodoListApp.Entities.dll
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.Entities/obj/Debug/net8.0/TodoListApp.Entities.pdb
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.Entities/obj/Debug/net8.0/ref/TodoListApp.Entities.dll

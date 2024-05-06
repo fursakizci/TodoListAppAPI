@@ -1,0 +1,15 @@
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.DataLayer/bin/Debug/net8.0/TodoListApp.DataLayer.deps.json
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.DataLayer/bin/Debug/net8.0/TodoListApp.DataLayer.dll
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.DataLayer/bin/Debug/net8.0/TodoListApp.DataLayer.pdb
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.DataLayer/bin/Debug/net8.0/TodoListApp.Entities.dll
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.DataLayer/bin/Debug/net8.0/TodoListApp.Entities.pdb
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.DataLayer/obj/Debug/net8.0/TodoListApp.DataLayer.csproj.AssemblyReference.cache
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.DataLayer/obj/Debug/net8.0/TodoListApp.DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.DataLayer/obj/Debug/net8.0/TodoListApp.DataLayer.AssemblyInfoInputs.cache
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.DataLayer/obj/Debug/net8.0/TodoListApp.DataLayer.AssemblyInfo.cs
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.DataLayer/obj/Debug/net8.0/TodoListApp.DataLayer.csproj.CoreCompileInputs.cache
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.DataLayer/obj/Debug/net8.0/TodoList.2DEB715E.Up2Date
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.DataLayer/obj/Debug/net8.0/TodoListApp.DataLayer.dll
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.DataLayer/obj/Debug/net8.0/refint/TodoListApp.DataLayer.dll
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.DataLayer/obj/Debug/net8.0/TodoListApp.DataLayer.pdb
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.DataLayer/obj/Debug/net8.0/ref/TodoListApp.DataLayer.dll

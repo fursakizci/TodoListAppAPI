@@ -1,0 +1,17 @@
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.Business/bin/Debug/net8.0/TodoListApp.Business.deps.json
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.Business/bin/Debug/net8.0/TodoListApp.Business.dll
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.Business/bin/Debug/net8.0/TodoListApp.Business.pdb
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.Business/bin/Debug/net8.0/TodoListApp.DataLayer.dll
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.Business/bin/Debug/net8.0/TodoListApp.Entities.dll
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.Business/bin/Debug/net8.0/TodoListApp.DataLayer.pdb
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.Business/bin/Debug/net8.0/TodoListApp.Entities.pdb
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.Business/obj/Debug/net8.0/TodoListApp.Business.csproj.AssemblyReference.cache
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.Business/obj/Debug/net8.0/TodoListApp.Business.GeneratedMSBuildEditorConfig.editorconfig
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.Business/obj/Debug/net8.0/TodoListApp.Business.AssemblyInfoInputs.cache
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.Business/obj/Debug/net8.0/TodoListApp.Business.AssemblyInfo.cs
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.Business/obj/Debug/net8.0/TodoListApp.Business.csproj.CoreCompileInputs.cache
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.Business/obj/Debug/net8.0/TodoList.97DD3995.Up2Date
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.Business/obj/Debug/net8.0/TodoListApp.Business.dll
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.Business/obj/Debug/net8.0/refint/TodoListApp.Business.dll
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.Business/obj/Debug/net8.0/TodoListApp.Business.pdb
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.Business/obj/Debug/net8.0/ref/TodoListApp.Business.dll
