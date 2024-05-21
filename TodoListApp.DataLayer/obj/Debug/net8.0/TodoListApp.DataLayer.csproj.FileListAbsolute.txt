@@ -13,3 +13,4 @@
 /Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.DataLayer/obj/Debug/net8.0/refint/TodoListApp.DataLayer.dll
 /Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.DataLayer/obj/Debug/net8.0/TodoListApp.DataLayer.pdb
 /Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.DataLayer/obj/Debug/net8.0/ref/TodoListApp.DataLayer.dll
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.DataLayer/obj/Debug/net8.0/TodoListApp.DataLayer.sourcelink.json

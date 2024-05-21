@@ -45,3 +45,4 @@
 /Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.API/bin/Debug/net8.0/TodoListApp.DataLayer.pdb
 /Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.API/bin/Debug/net8.0/TodoListApp.Business.dll
 /Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.API/bin/Debug/net8.0/TodoListApp.Business.pdb
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.API/obj/Debug/net8.0/TodoListApp.API.sourcelink.json

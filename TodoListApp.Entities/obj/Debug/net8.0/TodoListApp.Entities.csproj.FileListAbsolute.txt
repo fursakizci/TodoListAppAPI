@@ -9,3 +9,4 @@
 /Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.Entities/obj/Debug/net8.0/refint/TodoListApp.Entities.dll
 /Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.Entities/obj/Debug/net8.0/TodoListApp.Entities.pdb
 /Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.Entities/obj/Debug/net8.0/ref/TodoListApp.Entities.dll
+/Users/furkansakizci/Desktop/ToDoListApp/TodoListApp/TodoListApp.Entities/obj/Debug/net8.0/TodoListApp.Entities.sourcelink.json
