@@ -8,7 +8,7 @@ env:
   AWS_REGION: ap-southeast-2
   ECR_REPOSITORY: todo-list-app
   ECR_REGISTRY: 637423569589.dkr.ecr.ap-southeast-2.amazonaws.com
-  ECS_SERVICE: todolist-service
+  ECS_SERVICE: todolistapp-service
   ECS_CLUSTER: todolist-cluster
   ECS_TASK_DEFINITION: task-def.json
   CONTAINER_NAME: todolist-app
@@ -37,6 +37,12 @@ jobs:
       id: login-ecr
       uses: aws-actions/amazon-ecr-login@v1
 
+    - name: Print environment variables
+      run: |
+        echo "ECR_REGISTRY: $ECR_REGISTRY"
+        echo "ECR_REPOSITORY: $ECR_REPOSITORY"
+        echo "IMAGE_TAG: $IMAGE_TAG"
+
     - name: Build, tag, and push image to Amazon ECR
       id: build-image
       env:
@@ -58,12 +64,4 @@ jobs:
       with:
         task-definition: task-def.json
         container-name: ${{ env.CONTAINER_NAME }}
-        image: ${{ steps.build-image.outputs.image }}
-
-    - name: Deploy Amazon ECS task definition
-      uses: aws-actions/amazon-ecs-deploy-task-definition@v1
-      with:
-        task-definition: ${{ steps.task-def.outputs.task-definition }}
-        service: ${{ env.ECS_SERVICE }}
-        cluster: ${{ env.ECS_CLUSTER }}
-        wait-for-service-stability: true
+        image: ${
