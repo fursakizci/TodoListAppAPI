@@ -53,10 +53,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+app.UseCors("myAppCors");
 app.UseAuthorization();
 app.MapControllers();
-app.UseCors("myAppCors");
+
 
 
 app.Run();
