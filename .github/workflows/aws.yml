@@ -1,4 +1,4 @@
-name: Test AWS Connection and ECR Login
+name: Build and Push Docker Image to ECR
 
 on:
   push:
@@ -6,13 +6,14 @@ on:
 
 env:
   AWS_REGION: ap-southeast-2
+  ECR_REPOSITORY: 637423569589.dkr.ecr.ap-southeast-2.amazonaws.com/todo-list-app
 
 permissions:
   contents: read
 
 jobs:
-  test-aws-connection-and-ecr-login:
-    name: Test AWS Connection and ECR Login
+  build-and-push-docker-image:
+    name: Build and Push Docker Image to ECR
     runs-on: ubuntu-latest
 
     steps:
@@ -26,10 +27,19 @@ jobs:
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: ${{ env.AWS_REGION }}
 
-    - name: Verify AWS credentials
-      run: |
-        aws sts get-caller-identity
-
     - name: Login to Amazon ECR
       id: login-ecr
       uses: aws-actions/amazon-ecr-login@v1
+
+    - name: Build, tag, and push image to Amazon ECR
+      env:
+        ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
+        IMAGE_TAG: ${{ github.sha }}
+      run: |
+        # Set up QEMU for multi-architecture builds
+        docker run --rm --privileged multiarch/qemu-user-static --reset -p yes
+        # Set up Buildx
+        docker buildx create --use
+        # Build a docker container for amd64 architecture and
+        # push it to ECR so that it can be deployed to ECS.
+        docker buildx build --platform linux/amd64 -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG --push .
