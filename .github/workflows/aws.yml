@@ -44,6 +44,7 @@ jobs:
         echo "IMAGE_TAG: $IMAGE_TAG"
 
     - name: Build, tag, and push image to Amazon ECR
+      id: build-image
       env:
         ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
         IMAGE_TAG: ${{ github.sha }}
