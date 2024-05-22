@@ -1,6 +1,6 @@
 {
   "family": "todolist-app",
-  "networkMode": "awsvpc",
+  "networkMode": "bridge",
   "containerDefinitions": [
     {
       "name": "todolist-app",
@@ -11,37 +11,14 @@
       "portMappings": [
         {
           "containerPort": 80,
-          "hostPort": 80,
-          "protocol": "tcp"
+          "hostPort": 80
         }
-      ],
-      "logConfiguration": {
-        "logDriver": "awslogs",
-        "options": {
-          "awslogs-group": "/ecs/todolist-app",
-          "awslogs-region": "ap-southeast-2",
-          "awslogs-stream-prefix": "ecs"
-        }
-      }
+      ]
     }
   ],
-  "requiresCompatibilities": [
-    "FARGATE"
-  ],
+  "requiresCompatibilities": ["EC2"],
   "cpu": "256",
   "memory": "512",
   "executionRoleArn": "arn:aws:iam::637423569589:role/ecsTaskExecutionRole",
-  "networkConfiguration": {
-    "awsvpcConfiguration": {
-      "subnets": [
-        "subnet-006ac3329aa1d5d9a",
-        "subnet-0e04072d03b780b0a",
-        "subnet-02d90eb1dad5ce089"
-      ],
-      "securityGroups": [
-        "sg-0e92997243aad0339"
-      ],
-      "assignPublicIp": "ENABLED"
-    }
-  }
+  "taskRoleArn": "arn:aws:iam::637423569589:role/ecsTaskExecutionRole"
 }
